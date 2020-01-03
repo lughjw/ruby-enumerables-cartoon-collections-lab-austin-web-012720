@@ -13,4 +13,6 @@ end
 def find_the_cheese(potential_cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
   potential_cheeses.select{|cheese| cheese_types.include?(cheese)}
+  
+  if potential_cheeses.empty
 end
