@@ -17,5 +17,6 @@ def find_the_cheese(potential_cheeses)
   if result.empty?
     return nil
   end
+  
   result[0]
 end
