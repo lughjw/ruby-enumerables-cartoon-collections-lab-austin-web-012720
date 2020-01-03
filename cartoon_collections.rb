@@ -12,10 +12,10 @@ end
 
 def find_the_cheese(potential_cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  potential_cheeses.select{|cheese| cheese_types.include?(cheese)}
+  result = potential_cheeses.select{|cheese| cheese_types.include?(cheese)}
   
-  if potential_cheeses.empty? 
+  if result.empty? 
     return nil
   
-  potential_cheeses[0]
+  result[0]
 end
