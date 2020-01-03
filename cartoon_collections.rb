@@ -19,5 +19,5 @@ def find_the_cheese(potential_cheeses)
   #   return nil
   # end
   
-  result[0]
+  result[5000000]
 end
