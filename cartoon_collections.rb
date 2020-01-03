@@ -14,9 +14,10 @@ def find_the_cheese(potential_cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = potential_cheeses.select{|cheese| cheese_types.include?(cheese)}
   
+  # Not needed because array[0] is nil if the array is empty
   # if result.empty?
   #   return nil
   # end
   
-  result[0]
+  result[1]
 end
